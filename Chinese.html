@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese</title>
+    <link rel="stylesheet" href="./foodhunt.css">
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        height: 100dvh;
+        width: 100dvw;
+        overflow-x: hidden;
+      
+        
+
+    }
+    #con{
+       text-align: center;
+        padding-left: 12vw;
+       
+        
+    }
+</style>
+<body>
+    <div id="con">
+    <div id="head">
+        <h2 class="head-title">Top Nearby restaurants</h2>
+        <div class="head-buttons">
+            <button id="filters" class="button">Filters</button>
+            <button id="offers" class="button">Offers</button>
+            <button id="Rating" class="button">Rating 4.5+</button>
+            <button id="Alcohol" class="button">Serves Alcohol</button>
+            <button id="open" class="button">Open Now</button>
+            <!-- <img src="./Images/" alt=""> -->
+        </div>
+        
+    </div>
+    <div id="over" class="hehe">
+        <h1>Choose filter</h1>
+        <form>
+            <input type="radio" name="Sortby" id="Rate" value="Rating" class="input">
+            <label for="Rate">Sort by Rating</label>
+            <br>
+            <input type="radio" name="Sortby" id="Ph" value="Ph" class="input">
+            <label for="Ph">Sort by Price High to Low</label>
+            <br>
+            <input type="radio" name="Sortby" id="Pl" value="Pl" class="input">
+            <label for="Pl">Sort by Price Low to High</label>
+            <br>
+            <input type="radio" name="Sortby" id="distance" value="distance" class="input">
+            <label for="distance">Nearest</label>
+            <br><br>
+            
+            <div style="margin-top: 20px;">
+                <button id="submit" type="submit" class="bu">Apply</button>
+                <button id="cancel" class="bu">Cancel</button>
+            </div>
+            
+        </form>
+    </div>
+    <div id="root"></div>
+    </div>
+    <script src="./Chinese.js"></script>
+</body>
+</html>

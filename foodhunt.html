@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Hunt Website</title>
+    <link rel="stylesheet" href="./foodhunt.css">
+</head>
+<body>
+    <div id="con">
+    <div id="loader">
+        <div class="loader-content">
+          <img src="./Logo/logo-no-bg.png" alt="Loading..." />
+        </div>
+      </div>
+
+
+    <div class="main-container">
+        <div id="nav">
+            <nav class="nav-bar">
+                <div class="logo-img-container">
+                    <img src="./Logo/logo-no-bg.png" alt="logo" id="logo-img">
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search" id="search-box">
+                    <button id="search-button"><img src="./Pics/search.png" id="search-img"></button>
+                </div>
+                <button id="sign-in-button"><a href="./Signin.html" style="color: white;">Sign in</a></button>
+            </nav>
+        </div>
+        <div class="poster">
+            <img src="./Logo/logo-bg.jpg" alt="logo-bg" id="logo-img-poster">
+        </div>
+
+        <div class="whats-on-your-mind">
+            <h2 id="whats-on-your-mind-heading">What's on your mind?</h2>
+            <div class="foods">
+                <a href="./Biriyani.html" class="foodlinks" id="burger">
+                    <img src="./Pics/Biriyani.png" alt="biriyani" id="food-pic">
+                    <p>Biriyani</p>
+                </a>
+                <a href="./Chinese.html" class="foodlinks">
+                    <img src="./Pics/chinese.png" alt="biriyani" id="food-pic">
+                    <p>Chinese</p>
+                </a>
+                <a href="./Pizzas.html" class="foodlinks">
+                    <img src="./Pics/Pizzas.png" alt="biriyani" id="food-pic">
+                    <p>Pizzas</p>
+                </a>
+                <a href="./Noodles.html" class="foodlinks">
+                    <img src="./Pics/Noodles.png" alt="biriyani" id="food-pic">
+                    <p>Noodles</p>
+                </a>
+                <a href="./IceCream.html" class="foodlinks">
+                    <img src="./Pics/Ice-cream.png" alt="biriyani" id="food-pic">
+                    <p>Ice Cream</p>
+                </a>
+                <a href="./Cakes.html" class="foodlinks">
+                    <img src="./Pics/cakes.png" alt="biriyani" id="food-pic">
+                    <p>Cakes</p>
+                </a>
+                <a href="./Burgers.html" class="foodlinks">
+                    <img src="./Pics/Burgers.png" alt="biriyani" id="food-pic">
+                    <p>Burgers</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- <div class="Top-restaurant-Nearby-container">
+            <h2 id="Top-restaurant-Nearby-heading">Top restaurant Nearby</h2>
+            <div class="cards-container">
+                <a href="#" class="cards">
+                    <img src="./Pics/cards.pizza.png" alt="pizza" id="card-pics">
+                    <h3 id="card-heading">Pizza Hut</h3>
+                    <div class="rating-div">
+                        <img src="./Logo/rating-logo.png" alt="">
+                        <p>4.2 &#8226 45-50 mins</p>
+                    </div>
+                    <p id="card-para">Pizzas</p>
+                    <p id="card-para">Bidhannagar</p>
+                </a>
+                <a href="#" class="cards">
+                    <img src="./Pics/cards.pizza.png" alt="pizza" id="card-pics">
+                    <h3 id="card-heading">Pizza Hut</h3>
+                    <div class="rating-div">
+                        <img src="./Logo/rating-logo.png" alt="">
+                        <p>4.2 &#8226 45-50 mins</p>
+                    </div>
+                    <p id="card-para">Pizzas</p>
+                    <p id="card-para">Bidhannagar</p>
+                </a>
+                <a href="#" class="cards">
+                    <img src="./Pics/cards.pizza.png" alt="pizza" id="card-pics">
+                    <h3 id="card-heading">Pizza Hut</h3>
+                    <div class="rating-div">
+                        <img src="./Logo/rating-logo.png" alt="">
+                        <p>4.2 &#8226 45-50 mins</p>
+                    </div>
+                    <p id="card-para">Pizzas</p>
+                    <p id="card-para">Bidhannagar</p>
+                </a>
+                <a href="#" class="cards">
+                    <img src="./Pics/cards.pizza.png" alt="pizza" id="card-pics">
+                    <h3 id="card-heading">Pizza Hut</h3>
+                    <div class="rating-div">
+                        <img src="./Logo/rating-logo.png" alt="">
+                        <p>4.2 &#8226 45-50 mins</p>
+                    </div>
+                    <p id="card-para">Pizzas</p>
+                    <p id="card-para">Bidhannagar</p>
+                </a>
+                <a href="#" class="cards">
+                    <img src="./Pics/cards.pizza.png" alt="pizza" id="card-pics">
+                    <h3 id="card-heading">Pizza Hut</h3>
+                    <div class="rating-div">
+                        <img src="./Logo/rating-logo.png" alt="">
+                        <p>4.2 &#8226 45-50 mins</p>
+                    </div>
+                    <p id="card-para">Pizzas</p>
+                    <p id="card-para">Bidhannagar</p>
+                </a>
+                <a href="#" class="cards">
+                    <img src="./Pics/cards.pizza.png" alt="pizza" id="card-pics">
+                    <h3 id="card-heading">Pizza Hut</h3>
+                    <div class="rating-div">
+                        <img src="./Logo/rating-logo.png" alt="">
+                        <p>4.2 &#8226 45-50 mins</p>
+                    </div>
+                    <p id="card-para">Pizzas</p>
+                    <p id="card-para">Bidhannagar</p>
+                </a>
+                <a href="#" class="cards">
+                    <img src="./Pics/cards.pizza.png" alt="pizza" id="card-pics">
+                    <h3 id="card-heading">Pizza Hut</h3>
+                    <div class="rating-div">
+                        <img src="./Logo/rating-logo.png" alt="">
+                        <p>4.2 &#8226 45-50 mins</p>
+                    </div>
+                    <p id="card-para">Pizzas</p>
+                    <p id="card-para">Bidhannagar</p>
+                </a>
+                <a href="#" class="cards">
+                    <img src="./Pics/cards.pizza.png" alt="pizza" id="card-pics">
+                    <h3 id="card-heading">Pizza Hut</h3>
+                    <div class="rating-div">
+                        <img src="./Logo/rating-logo.png" alt="">
+                        <p>4.2 &#8226 45-50 mins</p>
+                    </div>
+                    <p id="card-para">Pizzas</p>
+                    <p id="card-para">Bidhannagar</p>
+                </a>
+                <a href="#" class="cards">
+                    <img src="./Pics/cards.pizza.png" alt="pizza" id="card-pics">
+                    <h3 id="card-heading">Pizza Hut</h3>
+                    <div class="rating-div">
+                        <img src="./Logo/rating-logo.png" alt="">
+                        <p>4.2 &#8226 45-50 mins</p>
+                    </div>
+                    <p id="card-para">Pizzas</p>
+                    <p id="card-para">Bidhannagar</p>
+                </a>
+                
+
+            </div>
+        </div> -->
+       
+
+            <div id="head">
+                <h2 class="head-title">Top Nearby restaurants</h2>
+                <div class="head-buttons">
+                    <button id="filters" class="button">Filters</button>
+                    <button id="offers" class="button">Offers</button>
+                    <button id="Rating" class="button">Rating 4.5+</button>
+                    <button id="Alcohol" class="button">Serves Alcohol</button>
+                    <button id="open" class="button">Open Now</button>
+                    <!-- <img src="./Images/" alt=""> -->
+                </div>
+                
+            </div>
+            <div id="over" class="hehe">
+                <h1>Choose filter</h1>
+                <form>
+                    <input type="radio" name="Sortby" id="Rate" value="Rating" class="input">
+                    <label for="Rate">Sort by Rating</label>
+                    
+                    <input type="radio" name="Sortby" id="Ph" value="Ph" class="input">
+                    <label for="Ph">Sort by Price High to Low</label>
+                    
+                    <input type="radio" name="Sortby" id="Pl" value="Pl" class="input">
+                    <label for="Pl">Sort by Price Low to High</label>
+                    
+                    <input type="radio" name="Sortby" id="distance" value="distance" class="input">
+                    <label for="distance">Nearest</label>
+                    <br><br>
+                    
+                    <div style="margin-top: 20px;">
+                        <button id="submit" type="submit" class="bu">Apply</button>
+                        <button id="cancel" class="bu">Cancel</button>
+                    </div>
+                    
+                </form>
+            </div>
+            <div id="root"></div>
+            
+
+            <div class="qr-container">
+                <div class="left-container">
+                    <div class="logo-section" id="logo-top">
+                        <img src="./Logo/logo-bg.jpg" alt="logo" id="qr-logo">
+                        <h1 id="right-container-logo">Food Hunt</h1>
+                    </div>
+                    <h2 id="qr-heading">Get the Food Hunt App Now</h2>
+                    <p id="qr-para">For best offers and discount </p>
+                    <button id="qr-comigSoon-button">Coming Soon</button>
+                </div>
+                <div class="right-container">
+                    <img src="./Pics/qr-iphone.png" alt="qr" id="qr-iphone-pic" >
+                </div>
+            </div>
+
+        <footer class="footer">
+            <div class="footer-left">
+                <div class="footer-logo-section">
+                    <img src="./Logo/logo-bg.jpg" alt="logo" id="footer-logo">
+                    <h1 id="footer-heading">Food Hunt</h1>
+                </div>
+                <p id="footer-para">2025 Food Hunt Limited</p>
+            </div>
+            <div class="footer-right">
+                <div class="contact-div">
+                    <h2 id="footer-heading-terms">Contact us</h2>
+                    <a href="#" id="link">Help & Support</a>
+                </div>
+                <div class="legal-div">
+                    <h2 id="footer-heading-terms">Legal</h2>
+                    <a href="#" id="link">Terms & Conditions</a>
+                    <a href="#" id="link">Privacy Policy</a>
+                    <a href="#" id="link">Cookie Policy</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+    <!-- tushars code end -->
+
+
+   
+    
+   
+    <script src="./foodhunt.js"></script>
+</body>
+</html>

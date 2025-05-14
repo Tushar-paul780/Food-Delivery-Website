@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Payment Method</title>
+  <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+
+<div class="payment-container">
+  <h2>Payment method</h2>
+  <div class="section">
+    <h3>UPI</h3>
+    <label for="upi-id">Enter UPI ID</label>
+    <input type="text" id="upi-id" placeholder="e.g. yourname@upi">
+  </div>
+  
+
+  <div class="section">
+    <h3>Another payment method</h3>
+
+    <label>
+      <input type="radio" name="payment">
+      Credit or debit card
+    </label>
+    <div class="cards">
+      <img src="https://img.icons8.com/color/48/visa.png"/>
+      <img src="https://img.icons8.com/color/48/mastercard.png"/>
+      <img src="https://img.icons8.com/color/48/amex.png"/>
+      <img src="https://img.icons8.com/color/48/rupay.png"/>
+    </div>
+  <div class="section cod">
+    <label>
+      <input type="radio" name="payment" checked>
+      <strong>Cash on Delivery / Pay on Delivery</strong>
+    </label>
+    <p>Cash, UPI and Cards accepted. Know more.<br>
+      <strong>₹7 convenience fee</strong> applies for this method.
+    </p>
+  </div>
+
+  <button class="submit-btn">Use this payment method</button>
+</div>
+
+</body>
+</html>

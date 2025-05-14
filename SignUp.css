@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    color: #1E1E1E;
+    box-sizing: border-box;
+}
+.outer-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(238, 199, 25, 0.4),rgba(251, 86, 7, 0.4)),url(Pics/background.jfif);
+    
+}
+.main-container{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    gap: 5px;
+    border:none;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 3px 3px 10px  2px #FB5607,-3px -3px 10px 2px #eec719;
+
+}
+.left-side{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.small-left-container{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: left;
+    
+}
+#signin{
+    font-size:30px;
+    font-weight: bold;
+    color: #1E1E1E;
+}
+.sign-in-details{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input{
+    padding: 0.5rem;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #F1EBEB;
+}
+.input:focus{
+    box-shadow: -3px 3px 5px  2px #FB5607,-3px -3px 5px 2px #eec719;
+}
+#signin-button{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #FB5607;
+    color: white;
+    cursor: pointer;
+}
+#signin-button:hover{
+    background-color: #db6a36;
+}
+.sign-in-button{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+#sign-up-link{
+    color: #FB5607;
+}
+.right-side{
+    width: 50%;
+    height: 100%;
+    background-color:#FB5607;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+   
+}
+#roll-pic{
+    width: 90%;
+    height: 100%;
+}
+@media screen and (max-width: 900px) {
+    .right-side{
+        display: none;
+    }
+    .main-container{
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    .small-left-container{
+        width: 100%;
+    }
+
+}
